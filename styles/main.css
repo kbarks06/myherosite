@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+.hero-image{
+    background-image: url(../images/416518-watercolor-landscape-mountains-Studio-Ghibli-field.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    color: goldenrod;
+    text-align: center;
+}
+
+.hero-text h2{
+    font-size: 250%;
+    font-weight: 500;
+}
+
+.hero-text p{
+    font-size: 150%;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: goldenrod;
+    padding: 10px 30px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.hero-btn:hover{
+    background-color: darkgrey;
+    color: antiquewhite;
+}
+
